@@ -37,7 +37,7 @@ const AddExpenseForm = () => {
             className="form-control"
             id="name"
             data-testid = "name"
-            value={"name"}
+            value={name}
             onChange={(e) => setName(e.target.value)}
             // HINT: onChange={}
           ></input>
